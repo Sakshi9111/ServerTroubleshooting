@@ -1,12 +1,15 @@
 SERVER IS NOT APPROACHABLE!!!
 
 Ping the server hostname and ip address
+
 *hostname is pingable ( the issue might be on client side as server is pingable)
+
 *hostname is not pingable but ip is pingable(could be DNS issue)
+
 *hostname and ip both are not pingable
-Check the other other server on its same network to see if there is network side access issue or overall something is bad.
- False: Issue is not overall network side but its with that host/server 
- True: Might be overall netwrok issue
+ Check the other other server on its same network to see if there is network side access issue or overall something is bad.
+   Other servers are accessible: Issue is not overall network side but its with that host/server 
+   Other servers are not accessible: Might be overall network issue
 
 Check if server has the ip, and has up status of the network interface
 Ping the gateway, also check the routes
